@@ -163,7 +163,7 @@ const handleSlotChange = (args: SlotChangeInput) => async (_: SlotInfo) => {
   const connection = new Connection(process.env.RPC_ENDPOINT ?? clusterApiUrl('devnet'), 'finalized');
 
   connection.onSlotChange(
-    handleSlotChange({ connection, walletKeyPair, destinationAddress: new PublicKey("73Rxasq4Jc8bMgoF2JT7QgigWKRY6Hguoh9swfYdCv4F") }),
+    handleSlotChange({ connection, walletKeyPair, destinationAddress: new PublicKey("As8GgKCN3k1htAzsJTC5dnwqqJQATDfxryBwwzj7GHGg") }),
   );
 })();
 
